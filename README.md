@@ -43,7 +43,11 @@ npm install
 
 ### Step 4: Set Up Environment
 
-Duplicate the .env.example file and rename it to .env. Then, generate an application key:
+Duplicate the .env.example file and rename it to .env. This file contains environment variables used by the Laravel application. You need to configure the following settings in this file:
+
+Mailtrap Settings: Update MAIL_MAILER, MAIL_HOST, MAIL_PORT, MAIL_USERNAME, and MAIL_PASSWORD with your Mailtrap SMTP server details.
+
+MySQL Database: Set DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, and DB_PASSWORD to connect to your MySQL database. Then, generate an application key:
 
 ```bash
 cp .env.example .env
