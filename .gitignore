@@ -1,0 +1,23 @@
+# Ignore .env file
+.env
+
+# Ignore vendor and node_modules directories
+/vendor
+/node_modules
+
+# Ignore storage directories
+/public/storage
+/storage/*.key
+/storage/*.meta
+/storage/debugbar
+
+# Ignore logs
+/storage/logs
+/storage/*.log
+
+# Ignore PHPStorm .idea directory
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
