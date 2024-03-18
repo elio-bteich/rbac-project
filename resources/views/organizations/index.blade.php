@@ -5,7 +5,7 @@
         <div class="card">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h1>Structures</h1>
-                <input type="text" id="organization-search-input" class="form-control" placeholder="Search organizations">
+                <input type="text" id="organization-search-input" class="form-control" placeholder="Rechercher structures...">
             </div>
             <div class="card-body">
                 <button id="organizationsAddButton" class="btn btn-outline-primary mt-2">

@@ -88,6 +88,10 @@ php artisan serve
 
 By default, the application will be available at http://localhost:8000.
 
+#### Initial admin credentials: 
+email: admin@gmail.com
+password: admin
+
 ## Additional Information
 
 For development, you can use this command to automatically recompile assets during development:
